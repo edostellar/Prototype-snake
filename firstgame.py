@@ -9,16 +9,16 @@ clock = pygame.time.Clock()
 
 pygame.display.set_caption('Lorem Ipsum')
 
-running = True
-while running:
+run = True
+while run:
     
    for event in pygame.event.get():
       if event.type == pygame.QUIT:
-         running = False
+         run = False
 
    pygame.display.update()
 
-   screen.fill("black")
+   screen.fill(constantes.SCREEN_COLOR)
    pygame.display.flip()
 
    clock.tick(60)
