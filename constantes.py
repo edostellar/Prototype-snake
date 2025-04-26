@@ -1,3 +1,5 @@
 WIDTH = 1000
 HEIGHT = 1000
-SCREEN_COLOR = (255, 0, 0)
+WHITE = ('white')
+BLACK = ('black')
+BlockSize = 50
